@@ -7368,6 +7368,11 @@ h1, h2, h3, h4, h5,
     font-weight: 400;
     opacity: 1 !important; }
 
+    @media (max-width: 768px){
+      .ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+        color: white;
+      }
+    }
     #firstpage {
     font-size: 16px;
     padding-top: .9rem;
